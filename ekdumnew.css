@@ -51,17 +51,24 @@ body {
   color: transition;
   font-family: 'Monoton', cursive;
   padding-left: 10px;
+  transition:font-size .3s;
+  text-shadow: 11px 11px 11px #000000;
+
 }
 
 .seb:hover {
   color: #FFDE7D;
+  font-size:3.1em;
 }
 
 .fa-chess {
   font-size: 3em;
   padding-left: 2px;
+  transition:font-size .2s
 }
-
+.fa-chess:hover{
+  font-size:3.4em;
+}
 .btn-light {
   width: 100px;
   padding-bottom: 10px;
@@ -161,13 +168,14 @@ p {
   text-shadow:-3px -3px black;
 }
 .kool{
-  text-shadow:-3px -3px black;
+  text-shadow:-3px 2px 2px black;
+  /* text-decoration: underline; */
 }
 .btnn{
-  border-color:#06FF00;
-  transition:background-color .5s;
+  border-color:#FF5F00;
+  transition:background-color .3s;
 }
 .btnn:hover{
-  border-color:#06FF00;
-  background-color:#06FF00;
+  border-color:#FF5F00;
+  background-color:#FF5F00;
 }
