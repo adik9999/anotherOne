@@ -23,7 +23,7 @@ $(".btnn").click(function() {
   window.open("webGL.html");
 });
 $(".btn-ban").click(function() {
-  window.open("http://localhost:3000/");
+  window.open("https://morning-tundra-62034.herokuapp.com/");
 });
 
 //https://www.youtube.com/
