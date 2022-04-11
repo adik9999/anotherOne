@@ -133,15 +133,16 @@ p {
 .rand-img {
   position: absolute;
   opacity: 0.7;
+  /* box-shadow: 5px 5px 5px black; */
 }
 
 .animate-piece {
-  animation: virus 2s infinite;
+  animation: virus 1.2s linear;
 }
 
 @keyframes virus {
-  10% {
-    transform: rotate(180deg);
+  1% {
+    transform: rotate(360deg);
   }
 }
 
