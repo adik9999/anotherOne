@@ -5,12 +5,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #C4FB6D;
+  background-color: #ECDBBA;
 }
 
 .navbar {
   /* background-image: linear-gradient(to right, #5B7DB1, #1A132F); */
-  background-color: #40394A;
+  background-color: #4C0070;
   margin: 0;
   padding-bottom: 2px;
 }
@@ -19,12 +19,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
+  /* box-shadow:2px 2px 25px black; */
 }
 .custom-shape-divider-bottom-1648825485 .shape-fill {
-    fill: #C4FB6D;
+    fill: #ECDBBA;
 }
 .custom-shape-divider-top-1648881665 .shape-fill {
-    fill: #C4FB6D;
+    fill: #ECDBBA;
 }
 .sec {
   position: relative;
@@ -41,7 +42,7 @@ body {
 
 .sec:hover {
   font-size:1.4em;
-  color: #FFDE7D;
+  color: #FF5403;
 }
 
 .seb {
@@ -51,22 +52,27 @@ body {
   color: transition;
   font-family: 'Monoton', cursive;
   padding-left: 10px;
-  transition:font-size .3s;
-  text-shadow: 11px 11px 11px #000000;
+  transition:font-size .2s;
+  text-shadow: 11px 11px 5px #000000;
 
 }
 
 .seb:hover {
-  color: #FFDE7D;
+  color: #FF5403;
   font-size:3.1em;
 }
 
 .fa-chess {
+  color:white;
   font-size: 3em;
   padding-left: 2px;
-  transition:font-size .2s
+  transition:font-size .2s;
+  color:transition;
+  text-shadow: 2px 7px 9px #000000;
+
 }
 .fa-chess:hover{
+  color:#FF5403;
   font-size:3.4em;
 }
 .btn-light {
@@ -76,7 +82,7 @@ body {
 
 .Banner {
   /* background-image: linear-gradient(to left, #283C63, #000000); */
-  background-color: #40394A;
+  background-color: #4C0070;
   /* background-image: linear-gradient(to right, #5B7DB1, #000000); */
 
   padding-bottom: 1px;
@@ -119,7 +125,7 @@ p {
 
 #footche {
   /* background-image: linear-gradient(to left, #283C63, #000000); */
-  background-color: #40394A;
+  background-color: #4C0070;
 }
 
 .btn-outline-success {
@@ -128,8 +134,17 @@ p {
 
 .btn-ban {
   width: 100px;
-}
+  /* box-shadow:1px 1px 12px black,-1px -1px 12px black; */
 
+  border-width:2px;
+  /* box-shadow:-5px -5px 6px black; */
+  /* border-color:transition;
+  box-shadow:transition; */
+}
+.btn-ban:hover{
+  /* border-color:red; */
+  /* box-shadow:2px 2px 3px blue,-2px -2px 3px blue; */
+}
 .rand-img {
   position: absolute;
   opacity: 0.7;
@@ -175,6 +190,7 @@ p {
 .btnn{
   border-color:#FF5F00;
   transition:background-color .3s;
+  box-shadow:2px 2px 12px black,2px 2px 12px black;
 }
 .btnn:hover{
   border-color:#FF5F00;
