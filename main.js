@@ -25,5 +25,7 @@ $(".btnn").click(function() {
 $(".btn-ban").click(function() {
   window.open("https://morning-tundra-62034.herokuapp.com/");
 });
-
+// $(".navbutt").click(function(){
+//   $(".navbar-collapse").style.textAlign="center";
+// });
 //https://www.youtube.com/
