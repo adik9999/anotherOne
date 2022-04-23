@@ -5,12 +5,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #ECDBBA;
+  background-color: #06FF00;
 }
 
 .navbar {
   /* background-image: linear-gradient(to right, #5B7DB1, #1A132F); */
-  background-color: #4C0070;
+  background-color: #1C1427;
   margin: 0;
   padding-bottom: 2px;
 }
@@ -22,10 +22,10 @@ body {
   /* box-shadow:2px 2px 25px black; */
 }
 .custom-shape-divider-bottom-1648825485 .shape-fill {
-    fill: #ECDBBA;
+    fill: #06FF00;
 }
 .custom-shape-divider-top-1648881665 .shape-fill {
-    fill: #ECDBBA;
+    fill: #06FF00;
 }
 .sec {
   position: relative;
@@ -82,7 +82,7 @@ body {
 
 .Banner {
   /* background-image: linear-gradient(to left, #283C63, #000000); */
-  background-color: #4C0070;
+  background-color: #1C1427;
   /* background-image: linear-gradient(to right, #5B7DB1, #000000); */
 
   padding-bottom: 1px;
@@ -125,7 +125,7 @@ p {
 
 #footche {
   /* background-image: linear-gradient(to left, #283C63, #000000); */
-  background-color: #4C0070;
+  background-color: #1C1427;
 }
 
 .btn-outline-success {
