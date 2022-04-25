@@ -150,13 +150,8 @@ p {
   /* border-color:red; */
   /* box-shadow:2px 2px 3px blue,-2px -2px 3px blue; */
 }
-.rand-img {
-  position: absolute;
-  opacity: 0.7;
-  /* box-shadow: 5px 5px 5px black; */
-}
 
-.animate-piece {
+/* .animate-piece {
   animation: virus 1.2s linear;
 }
 
@@ -164,7 +159,28 @@ p {
   1% {
     transform: rotate(360deg);
   }
+} */
+.rand-img {
+  position: absolute;
+  opacity: 0.8;
+  animation: rotation 2s infinite linear;
+  /* box-shadow: 5px 5px 5px black; */
 }
+@keyframes rotation{
+  1%{
+    transform:rotate3d(0,1,0,1turn);
+  }
+}
+
+/* .animate-piece {
+  animation: virus 1.2s linear;
+}
+
+@keyframes virus {
+  1% {
+    transform: rotate(360deg);
+  }
+} */
 
 .custom-shape-divider-top-1648881665 {
   position: absolute;
