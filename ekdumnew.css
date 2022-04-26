@@ -171,7 +171,31 @@ p {
     transform:rotate3d(0,1,0,1turn);
   }
 }
-
+.touch-img{
+  animation: rotter 1s infinite linear;
+}
+@keyframes rotter {
+  1%{
+    transform:rotate3d(0,1,0,3turn);
+  }
+}
+.para_text_style{
+  font-family: 'PT Serif', serif;
+  font-size:1.21em;
+}
+.fa-brands{
+  padding-top:10px;
+}
+.horizon{
+  border:2px solid #FFDE7D;
+  opacity:1;
+  border-radius:200px 0px 200px 0px;
+  width:90%;
+  text-decoration: none;
+  color:#FFDE7D;
+  box-shadow: 5px 2px 7px black
+  /* text-align: center; */
+}
 /* .animate-piece {
   animation: virus 1.2s linear;
 }
@@ -206,6 +230,7 @@ p {
 }
 .kool{
   text-shadow:-4px 4px 6px black;
+  font-size:2.7em;
   /* text-decoration: underline; */
 }
 .btnn{

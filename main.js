@@ -9,6 +9,10 @@ $(".seb").mouseover(function(){
   var aud=new Audio("watson.mp3");
   aud.play();
 });
+$(".btnn").mouseover(function(){
+  var aud=new Audio("watson.mp3");
+  aud.play();
+});
 $(".sec").mouseover(function(){
   var aud=new Audio("watson.mp3");
   aud.play();
@@ -34,14 +38,14 @@ $(".sec").click(function() {
   var aud = new Audio("punch.mp3");
   aud.play();
 });
-// $(".rand-img").click(function() {
-//   $(".rand-img").addClass("animate-piece");
-//   var aud = new Audio("woosh.wav");
-//   aud.play();
-//   setTimeout(function() {
-//     $(".rand-img").removeClass("animate-piece");
-//   }, 2000);
-// });
+$(".rand-img").click(function() {
+  $(".rand-img").addClass("touch-img");
+  var aud = new Audio("woosh.wav");
+  aud.play();
+  setTimeout(function() {
+    $(".rand-img").removeClass("touch-img");
+  },1000 );
+});
 $(".btnn").click(function() {
   var aud = new Audio("gameOn.wav");
   aud.play();
