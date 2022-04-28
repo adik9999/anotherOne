@@ -46,10 +46,12 @@ body {
 
 .seb {
   color: white;
-  font-size: 2.9em;
+  font-size: 2.7em;
   text-decoration: none;
   color: transition;
   font-family: 'Monoton', cursive;
+  /* font-family: 'Audiowide', cursive; */
+  padding-top:0;
   padding-left: 10px;
   transition:font-size .2s;
   text-shadow: 11px 11px 5px #000000;
@@ -58,7 +60,7 @@ body {
 
 .seb:hover {
   color: #FF5403;
-  font-size:3.1em;
+  font-size:2.9em;
 }
 
 .fa-chess {
@@ -73,6 +75,7 @@ body {
 .fa-chess:hover{
   color:#FF5403;
   font-size:3.4em;
+  cursor:pointer;
 }
 .btn-light {
   width: 100px;
@@ -128,6 +131,7 @@ p {
   background-color: #1C1427;
   width:100%;
   z-index: -1;
+  /* height:100px; */
 }
 
 .btn-outline-success {
@@ -179,14 +183,14 @@ p {
 .res_img{
   width:90%;
   height:80%;
-  animation:wobble 1100ms ease-in-out  infinite; 
+  animation:wobble 2400ms ease-in-out  infinite; 
   border-radius:10%;
-  box-shadow:3px 8px 8px #000000, 3px -6.5px 8px #000000;
+  box-shadow:3px 11px 18px #000000, 3px -9.5px 18px #000000;
 }
 @keyframes wobble {
   /* /////////////////// */
   40%{
-    transform:translateY(23px);
+    transform:translateY(33px);
   }
   /* ///////////////// */
   
@@ -222,7 +226,8 @@ p {
   width:90%;
   text-decoration: none;
   color:#FFDE7D;
-  box-shadow: 5px 2px 7px black
+  box-shadow: 8px 5px 4px black;
+  /* text-shadow: 8px 5px 4px #000000; */
   /* text-align: center; */
 }
 /* .animate-piece {
@@ -265,7 +270,39 @@ p {
 .btnn{
   border-color:#FF5F00;
   transition:background-color .3s;
-  box-shadow:2px 2px 12px black,2px 2px 12px black;
+  box-shadow:4px 2px 12px black,4px 2px 12px black;
+  animation: war 1090ms ease-in-out infinite;
+}
+@keyframes war {
+  50%{
+    transform:translateX(10px);
+  }
+  100%{
+    transform:translateX(0px);
+  }
+}
+.color-seq{
+  animation: snc 2.5s linear infinite;
+}
+@keyframes snc {
+  0%{
+    color:#77ACF1;
+    /* text-shadow: 0px 0px 40px #FFDE7D;     */
+
+    
+  }
+  50%{
+    color:#000000;
+    /* text-shadow: 4px 10px 2px #1EAE98;  */
+    text-shadow: 0px 0px 25px #77ACF1;    
+  }
+  100%{
+    color:#77ACF1;
+    /* text-shadow: 0px 0px 40px #FFDE7D;     */
+    
+    /* text-shadow: 2px -0px 40px #49FF00;   */
+    /* transform:translateX(20px); */
+  }
 }
 .btnn:hover{
   border-color:#FF5F00;

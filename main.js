@@ -28,6 +28,7 @@ $(".btn-ban").mouseover(function(){
 $(".fa-chess").click(function(){
   var aud=new Audio("punch.mp3");
   aud.play();
+  window.open("https://en.wikipedia.org/wiki/Chess",);
 });
 $(".btn-ban").click(function(){
   var aud=new Audio("punch.mp3");
