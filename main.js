@@ -55,6 +55,9 @@ $(".btnn").click(function() {
 $(".btn-ban").click(function() {
   window.open("https://morning-tundra-62034.herokuapp.com/");
 });
+$(".btnnr").click(function(){
+  window.open("instruct.html");
+});
 // $(".navbutt").click(function(){
 //   $(".navbar-collapse").style.textAlign="center";
 // });

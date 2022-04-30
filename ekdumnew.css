@@ -38,7 +38,10 @@ body {
   transition:font-size .2s;
   font-size: 1.4em;
 }
-
+.btn-secondary{
+  box-shadow:-2px 4.5px 12px #000000;
+  width:150px;
+}
 .sec:hover {
   font-size:1.6em;
   color: #FF5403;
@@ -295,7 +298,21 @@ p {
   box-shadow:4px 2px 12px black,4px 2px 12px black;
   animation: war 1990ms ease-in-out infinite;
 }
-@keyframes war {
+.btnn:hover{
+  border-color:#FF5F00;
+  background-color:#FF5F00;
+}
+.btnnr{
+  border-color:black;
+  transition:background-color .3s;
+  box-shadow:4px 3px 12px black,4px 2px 12px black;
+  animation: swar 3s ease-in-out infinite;
+}
+.btnnr:hover{
+  border-color:black;
+  background-color:gray;
+}
+@keyframes swar {
   50%{
     transform:translateX(15px);
   }
@@ -326,7 +343,4 @@ p {
     /* transform:translateX(20px); */
   }
 }
-.btnn:hover{
-  border-color:#FF5F00;
-  background-color:#FF5F00;
-}
+
