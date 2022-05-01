@@ -1,0 +1,117 @@
+body{
+    background-color:#1C1427;
+}
+.container{
+    background-color: aqua;
+    height:300px;
+    width:85%;
+    /* z-index:1; */
+}
+.h1{
+    width:auto;
+    margin:0;
+    background-color:#1C1427;
+    height:65px;
+    /* text-align:center; */
+}
+.seb {
+    color: white;
+    font-size:1.1em;
+    text-decoration: none;
+    color: transition;
+    font-family: 'Monoton', cursive;
+    /* font-family: 'Audiowide', cursive; */
+    padding-top:0;
+    padding-left: 20px;
+    transition:font-size .2s;
+    text-shadow: 11px 11px 5px #000000;
+  
+  }
+  
+  .seb:hover {
+    color: #FF5403;
+    font-size:1.2em;
+  }
+  .jk{
+      position:fixed;
+      /* z-index: 0; */
+      /* right:592px; */
+      right:592px;
+  }
+  .kr{
+      /* z-index:1; */
+  }
+  .btnn{
+    border-color:#06FF00;
+    transition:background-color .3s;
+    box-shadow:4px 2px 12px black,4px 2px 12px black;
+    /* animation: swar 1990ms ease-in-out infinite; */
+  }
+  .btnn:hover{
+    border-color:#06FF00;
+    background-color:#06FF00;
+    /* color:black; */
+  }
+  .custom-shape-divider-bottom-1648825485 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .custom-shape-divider-bottom-1648825485 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 300px;
+  }
+  .custom-shape-divider-bottom-1648825485 .shape-fill {
+    fill: #54E346;
+}
+  
+.header{
+    z-index: 1;
+}
+.kool{
+    text-shadow:-4px 5px 6px black;
+    font-size:2.9em;
+    animation:idf 1.7s linear infinite;
+    /* text-decoration: underline; */
+    color:#F4A442;
+    padding-bottom:20px;
+  }
+  @keyframes idf {
+    50%{
+      transform:translateY(15px);
+      color:#E1701A;
+      /* text-shadow:2px 4px 5px black; */
+      /* text-decoration: underline; */
+    }
+    100%{
+      color:#F4A442;
+      transform:translateY(0px);
+      /* text-decoration: underline; */
+      
+    }
+  }
+
+  .line{
+      color:#FFF6CD;
+      font-family: 'Bebas Neue', cursive;
+      font-size:2em;
+      text-shadow:3px 3px 7px black;
+  }
+  .term{
+      color:#28FFBF;
+      font-family: 'Bebas Neue', cursive;
+      font-size:2.2em;
+      text-shadow:2px 2px 4px black;
+
+  }
+  .data{
+      color:black;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:1.44em;
+  }

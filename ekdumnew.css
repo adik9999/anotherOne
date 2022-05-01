@@ -293,20 +293,25 @@ p {
   }
 }
 .btnn{
-  border-color:#FF5F00;
+  border-color:#06FF00;
   transition:background-color .3s;
   box-shadow:4px 2px 12px black,4px 2px 12px black;
-  animation: war 1990ms ease-in-out infinite;
+  animation: swar 1990ms ease-in-out infinite;
 }
 .btnn:hover{
-  border-color:#FF5F00;
-  background-color:#FF5F00;
+  border-color:#06FF00;
+  background-color:#06FF00;
+  color:black;
 }
 .btnnr{
+  height:42px;
   border-color:black;
   transition:background-color .3s;
   box-shadow:4px 3px 12px black,4px 2px 12px black;
   animation: swar 3s ease-in-out infinite;
+  font-size:1.2em;
+  color:whitesmoke; 
+  width:200px;
 }
 .btnnr:hover{
   border-color:black;
