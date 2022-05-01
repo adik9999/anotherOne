@@ -25,10 +25,19 @@ $(".btn-ban").mouseover(function(){
   var aud=new Audio("watson.mp3");
   aud.play();
 });
+$(".btnnr").mouseover(function(){
+  var aud=new Audio("watson.mp3");
+  aud.play();
+});
 $(".fa-chess").click(function(){
   var aud=new Audio("punch.mp3");
   aud.play();
   window.open("https://en.wikipedia.org/wiki/Chess",);
+});
+$(".btnnr").click(function(){
+  var aud=new Audio("punch.mp3");
+  aud.play();
+  // window.open("https://en.wikipedia.org/wiki/Chess",);
 });
 $(".btn-ban").click(function(){
   var aud=new Audio("punch.mp3");
