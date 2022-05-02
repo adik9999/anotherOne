@@ -59,7 +59,7 @@ $(".rand-img").click(function() {
 $(".btnn").click(function() {
   var aud = new Audio("gameOn.wav");
   aud.play();
-  window.open("https://adik9999.github.io/baye2/","_self");
+  window.open("https://adik9999.github.io/baye2/");
 });
 $(".btn-ban").click(function() {
   window.open("https://morning-tundra-62034.herokuapp.com/");
